@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
-import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
   "home", "about", "experience", "projects", "skills", "education", "certifications", "contact"
@@ -54,13 +53,9 @@ const Header = () => {
                 <motion.span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 bg-accent rounded-full transition-all group-hover:w-1/2" />
               </Link>
             ))}
-            <div className="ml-4 border-l border-border pl-4">
-              <ThemeToggle />
-            </div>
           </nav>
 
           <div className="flex lg:hidden items-center gap-4">
-            <ThemeToggle />
             <button
               onClick={() => setMobileOpen(true)}
               className="p-3 text-foreground bg-card border border-border rounded-xl shadow-lg active:scale-90 transition-all"
