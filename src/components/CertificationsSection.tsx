@@ -1,14 +1,40 @@
 import { motion } from "framer-motion";
 import { FiAward, FiCloud, FiBarChart2, FiFileText, FiDatabase, FiPieChart } from "react-icons/fi";
 
+
 const certifications = [
-  { name: "IBM Data Engineering Professional Certificate", provider: "Coursera", icon: FiDatabase },
-  { name: "Google Cloud Data Engineering Professional Certificate", provider: "Coursera", icon: FiCloud },
-  { name: "Data Warehousing for Business Intelligence Specialization", provider: "Coursera", icon: FiBarChart2 },
-  { name: "Modern Big Data Analysis with SQL Specialization", provider: "Coursera", icon: FiDatabase },
-  { name: "Databricks Data Engineering Professional Certificate", provider: "Coursera", icon: FiPieChart },
-  { name: "Microsoft Azure Data Engineering Associate (DP-203) Preparation Specialization", provider: "Coursera", icon: FiCloud },
+  {
+    name: "IBM Data Engineering Professional Certificate",
+    provider: "Coursera",
+    icon: FiDatabase,
+  },
+  {
+    name: "Google Cloud Data Analytics Certificate",
+    provider: "Coursera",
+    icon: FiCloud,
+  },
+  {
+    name: "IBM Machine Learning Professional Certificate",
+    provider: "Coursera",
+    icon: FiAward,
+  },
+  {
+    name: "AWS Data Engineering Professional Certificate",
+    provider: "Coursera",
+    icon: FiCloud,
+  },
+  {
+    name: "DeepLearning.AI Machine Learning Engineering for Production (MLOps) Specialization",
+    provider: "Coursera",
+    icon: FiFileText,
+  },
+  {
+    name: "Databricks Data Engineering Professional Certificate",
+    provider: "Coursera",
+    icon: FiPieChart,
+  },
 ];
+
 
 const CertificationsSection = () => {
   return (

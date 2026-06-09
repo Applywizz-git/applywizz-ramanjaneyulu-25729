@@ -3,56 +3,113 @@ import {
   FiDatabase, FiBarChart2, FiLayers, FiCode, FiCloud, FiShield, FiSettings, FiCpu, FiActivity, FiZap
 } from "react-icons/fi";
 
+
 const skillCategories = [
-  {
-    icon: FiDatabase,
-    title: "Data Engineering & ETL",
-    skills: ["Data Engineering", "Data Pipelines", "ETL Development", "Data Transformation", "Data Integration", "Data Modeling (Dimensional & Relational)", "Analytics Engineering"],
-  },
   {
     icon: FiCode,
     title: "Programming & Query Languages",
-    skills: ["SQL", "Python", "PySpark"],
+    skills: [
+      "Python",
+      "SQL",
+      "PySpark",
+      "Scala",
+      "Shell Scripting",
+    ],
   },
+
   {
-    icon: FiLayers,
-    title: "Data Warehousing & Big Data",
-    skills: ["Snowflake", "Amazon Redshift", "Apache Spark", "Kafka"],
+    icon: FiDatabase,
+    title: "Data Engineering & Big Data",
+    skills: [
+      "Apache Spark",
+      "Hadoop",
+      "Hive",
+      "Kafka",
+      "Databricks",
+      "Apache Airflow",
+      "Snowflake",
+      "Delta Lake",
+      "Data Lakehouse Architecture",
+      "ETL/ELT Pipelines",
+      "Data Modeling",
+      "Data Warehousing",
+      "Real-Time Data Processing",
+      "Batch Processing",
+    ],
   },
+
   {
     icon: FiCloud,
-    title: "Cloud Data Platforms",
-    skills: ["AWS (S3, Glue, Redshift)", "Azure (Data Factory, Databricks, Synapse Analytics, ADLS)"],
+    title: "Cloud & ML Integration",
+    skills: [
+      "AWS S3",
+      "AWS Glue",
+      "AWS EMR",
+      "AWS Redshift",
+      "AWS Lambda",
+      "AWS Athena",
+      "Azure Data Factory",
+      "ML Data Pipelines",
+      "Feature Engineering Pipelines",
+      "ML Data Preparation",
+      "MLOps Integration",
+    ],
   },
+
   {
-    icon: FiSettings,
-    title: "Pipeline Orchestration",
-    skills: ["dbt", "Apache Airflow", "Azure Data Factory"],
+    icon: FiLayers,
+    title: "Databases",
+    skills: [
+      "PostgreSQL",
+      "MySQL",
+      "SQL Server",
+      "Oracle",
+      "MongoDB",
+    ],
   },
-  {
-    icon: FiCpu,
-    title: "Database Engineering",
-    skills: ["Relational Databases", "SQL Optimization", "Query Performance Tuning"],
-  },
+
   {
     icon: FiBarChart2,
-    title: "Analytics & BI",
-    skills: ["Business Intelligence Data Modeling", "Reporting Dataset Engineering"],
+    title: "Analytics & Business Intelligence",
+    skills: [
+      "Power BI",
+      "Tableau",
+      "Business Intelligence",
+      "KPI Reporting",
+      "Data Visualization",
+      "Analytics Engineering",
+      "Customer Analytics",
+      "Product Analytics",
+      "Predictive Analytics Support",
+    ],
   },
+
   {
-    icon: FiShield,
-    title: "Data Quality & Governance",
-    skills: ["Data Validation Frameworks", "Data Lineage", "Metadata Management"],
+    icon: FiSettings,
+    title: "DataOps & DevOps",
+    skills: [
+      "Git",
+      "GitHub",
+      "CI/CD Pipelines",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Terraform",
+      "DataOps",
+      "Workflow Orchestration",
+    ],
   },
+
   {
-    icon: FiActivity,
-    title: "Monitoring & Observability",
-    skills: ["CloudWatch", "Azure Monitor", "Splunk"],
-  },
-  {
-    icon: FiZap,
-    title: "Engineering Practices",
-    skills: ["Git", "Agile", "DataOps Collaboration"],
+    icon: FiCpu,
+    title: "Frameworks & Development",
+    skills: [
+      "Pandas",
+      "NumPy",
+      "REST APIs",
+      "Microservices-Based Data Integration",
+      "API Data Pipelines",
+    ],
   },
 ];
 
